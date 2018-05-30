@@ -1,5 +1,5 @@
 body {
-background:url("img/background.jpg") no-repeat;
+background:url("img/background.jpg") repeat-y;
 background-size: 100%;
 background-attachment: fixed;
 }
