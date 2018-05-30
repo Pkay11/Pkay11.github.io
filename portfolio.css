@@ -1,0 +1,44 @@
+
+
+/*--------------------------*/
+
+body {
+  background:url("img/background.jpg") repeat-y;
+  background-size: cover;
+  margin:auto;
+}
+
+.heading {
+  letter-spacing: 2px;
+  color:white;
+  border-bottom:1px solid darkgray;
+  border-right:1px solid darkgray;
+}
+.description{
+  color:lightgray;
+}
+.row {
+  margin:20px;
+}
+
+img {
+  width:400px;
+  height:auto;
+  padding:20px;
+  transition: 1s ease;
+  box-shadow:3px 8px 4px black;
+  opacity:0.9;
+}
+
+
+img:hover {
+  width:420px;
+  background: linear-gradient(black,#333333);
+}
+
+figcaption {
+  color:black;
+  text-align: center;
+  font-size:13px;
+  margin-top:5px;
+}

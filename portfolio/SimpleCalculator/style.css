@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+
+body {
+    text-align:center;
+	}
+a.home {
+	color:white;
+	background-color:black;
+	font-size:1.2em;
+	text-decoration: none;
+	float:left;
+	box-shadow:4px 4px 4px gray;
+    padding:10px;
+    border-radius: 4px;
+}
+a.home:hover {
+	background-color: white;
+    color:black;
+}	
+h2 {
+	text-transform: uppercase;
+	background: linear-gradient(lightgreen,gray);
+	background-clip: text;
+	text-fill-color: transparent;  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Passion One', cursive;
+    font-size:2em;
+    letter-spacing:0.6em;
+}	
+
+.container {
+	margin:auto;
+	padding:10px 10px 20px 10px;
+	width:280px;
+	margin-top:20vh;
+	background: linear-gradient(to right,lightgray,gray,gray,lightgray);
+	border-bottom: 2px solid gray;
+	border-radius:5px 5px 0px 0px;
+	box-shadow:0px 3px 4px gray;
+}
+
+.header input {
+	height:28px;
+	width:235px;
+	font-size:1em;
+	text-align: right;
+	color:#4f4d4a;
+	font-weight:bold;
+	background: linear-gradient(to right,lightpink,lightblue);
+}
+
+.keys button.operators {
+	color:#2f5bc4;
+	background-color: black;
+}
+
+.keys button{
+	padding:10px 20px;
+	margin:4px; 
+	background: linear-gradient(to right,lightpink,lightblue);
+	border:1px solid gray;
+	border-radius:3px;
+	box-shadow:4px 3px 3px black;
+	font-weight:bold;
+	font-size:0.9em;
+	color:#4f4d4a;
+	
+}
+.keys button:active {
+	padding-top:12px;
+	background:white;	
+}
+
+.keys button#clear{
+	padding:10px 10px;
+	margin-right:8px;
+}
+
+
+footer {
+   color:lightgray;
+   padding:20px;
+   text-decoration:underline;
+}

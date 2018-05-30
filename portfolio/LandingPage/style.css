@@ -1,0 +1,88 @@
+*{
+   margin:0;
+   padding:0;
+}
+
+body {
+	margin:0;
+	font-family: Arial,"Helvetica Neue",Helvetica, sans-serif;
+	font-size:17px;
+	color:#926239;
+	line-height:1.6;	
+}
+
+#container 
+{
+	background-image: url('background.jpg');
+	background-size:cover;
+	background-position: center;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+    padding:0 20px;
+    text-align:center;
+}
+
+#container h1 {
+	font-size:50px;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+#container p {
+	font-size:19px;
+}
+
+#container .button {
+	font-size:18px;
+	text-decoration:none;
+	color:#926239;
+	border:#926239 1px solid;
+	padding:10px 20px;
+	border-radius: 10px;
+	margin-top:20px;
+	box-shadow:2px 2px 2px black;
+}
+
+#container .button:hover {
+	background:#926239;
+	color:#fff;
+}
+
+#content-A 
+{
+    padding:20px;
+    background:#926239; 
+    color:#fff;
+    text-align:center;
+    
+}
+#content-B 
+{
+     padding:20px;
+     background:#ffe5e5;
+    text-align:center;
+}
+#content-C 
+{
+    display:flex;
+}
+#content-C  div {
+    padding:20px;
+    text-align: justify;
+}
+
+
+#content-C .box-1, #content-C .box-3 {
+    background:#926239; 
+    color:#fff;
+}
+
+#content-C .box-2 
+{
+	 background:#f4f4f4; 
+	
+}
+

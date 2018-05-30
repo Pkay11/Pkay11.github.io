@@ -1,0 +1,58 @@
+body {
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing:.5em;
+	color:#444422;
+}
+a.home {
+	color:white;
+	background-color:black;
+	font-size:1.2em;
+	text-decoration: none;
+	float:left;
+	box-shadow:4px 4px 4px gray;
+    padding:10px;
+    border-radius: 4px;
+}
+a:hover {
+	background-color: white;
+    color:black;
+}
+header {
+	text-align: right;
+	margin-top:1%;
+	font-size: 0.6em;
+	letter-spacing:0.5em;
+}
+
+h1 {
+   width:100%;  
+}
+
+label {
+	letter-spacing: 0;
+	font-size:0.8em;
+}
+button {
+   padding:10px 10px;
+   border-radius:4px;
+   font-size:0.9em;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   border:1px solid white;
+   box-shadow:2px 2px 3px black;
+}
+
+a{
+	margin-top:10px;
+	letter-spacing:0;
+	text-transform: none;
+	color:white;    
+}
+
+h4{
+	text-transform: none;
+	letter-spacing: .2em;
+}
+
+
