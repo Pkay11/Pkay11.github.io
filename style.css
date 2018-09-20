@@ -1,0 +1,228 @@
+nav{
+  background-color:#333;
+  height:75px;
+}
+li{
+  width:120px;
+  margin:10px;
+  text-align:center;
+  font-size:1em;
+  border:1px solid white;
+  box-shadow: 1px 1px 2px grey;
+  text-transform: uppercase;
+  }
+li:first-child{
+    background-color:#9d9d9d;
+}
+li:hover{
+  background-color:#9d9d9d;
+  border-radius:3px;
+}
+
+
+.section1 {
+  position:relative;
+  text-align:center;
+  background-image:url('img/background.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+  height:540px;
+}
+
+.section1 h1,h5
+{
+  color:white;
+}
+.section1 h1{
+    text-shadow:2px 2px 1px black;
+    height:100%;
+}
+
+.section1 h5
+{
+  margin-top:0;
+  text-shadow:1px 1px 2px black;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.row{
+  margin-top:5%;
+  margin-left:7%;
+  margin-right: 7%;
+}
+
+.card {
+  background-color:#ebebe0;
+  border:none;
+  }
+
+.card h5{
+  margin-top:0;
+  text-shadow: none;
+  font-weight:bold;
+  font-family: "Open Sans", Helvetica;
+}
+
+.card p{
+  font-size:0.9em;
+}
+.section2{
+  background-image:url('img/bg-2.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+  margin-top:5%;
+  height:350px;
+}
+.section2 h1,h5
+{
+  color:white;
+}
+.section2 h1{
+    text-shadow:2px 2px 1px black;
+}
+.section2 h5
+{
+  margin-top:0;
+  text-shadow:1px 1px 2px black;
+}
+
+.button1:hover,.button2:hover,.button3:hover,.button4:hover{
+  color:black;
+  font-weight:bold;
+
+}
+
+
+/*---------------------------MEDIA-QUERIES--------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width:1400px)
+ {
+ }
+
+@media only screen (max-width: 992px)
+{
+  .section1{
+    height:280px;
+  }
+
+}
+
+@media only screen and (min-width:480px) and (max-width:991px)
+{
+  .section1{
+    height:240px;
+  }
+  .section1 h1
+  {
+    font-size:2.8em;
+    letter-spacing: 0;
+  }
+  .section1 h5
+  {
+    font-size:1.1em;
+  }
+  li{
+    text-align:center;
+    background-color:#333;
+    margin:0;
+    width:100%;
+  }
+  .card{
+    margin-top:12px;
+  }
+
+  .section2 h1
+  {
+    font-size:1.5em;
+  }
+  .section2 h5
+  {
+    font-size:1em;
+  }
+  .message {
+    margin-top:10px;
+  }
+
+  section h2
+  {
+    font-size:1.4em;
+  }
+  section p
+  {
+    font-size:0.8em;
+  }
+
+  footer h3{
+    font-size:1.3em;
+  }
+  .quote{
+    font-size:0.9em;
+  }
+  .end{
+    font-size:0.9em;
+  }
+}
+
+/*-----xs Portrait--------*/
+@media only screen and (max-width:479px)
+{
+  .section1{
+    height:240px;
+  }
+  .section1 h1
+  {
+    font-size:2em;
+    letter-spacing: 0;
+  }
+  .section1 h5
+  {
+    font-size:0.8em;
+  }
+  li{
+    text-align:center;
+    background-color:#333;
+    margin:0;
+    width:100%;
+  }
+   .card{
+     margin-top:12px;
+   }
+  .section2 h1
+  {
+    font-size:1.5em;
+  }
+  .section2 h5
+  {
+    font-size:1em;
+  }
+
+  section h2
+  {
+    font-size:1.4em;
+  }
+  section p
+  {
+    font-size:0.8em;
+  }
+  input{
+    max-width:15em;
+  }
+  .message
+  {
+    margin-top:10px;
+    max-width:17em;
+  }
+  footer h3{
+    font-size:1.2em;
+  }
+  .quote{
+    font-size:0.9em;
+  }
+  .end{
+    font-size:0.8em;
+  }
+}
